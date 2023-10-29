@@ -10,54 +10,55 @@
         android:id="@+id/textView"
         android:layout_width="66dp"
         android:layout_height="38dp"
-        android:layout_marginTop="84dp"
+        android:layout_marginTop="56dp"
         android:fontFamily="@font/architects_daughter"
         android:text="@string/Text_name"
         android:textColor="@color/red"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextText_1"
+        android:id="@+id/editText_1"
         android:layout_width="218dp"
         android:layout_height="73dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints="name"
         android:ems="10"
         android:hint="@string/hint_1"
-        android:autofillHints="name"
         android:inputType="number"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/editTextText_2"
+        android:id="@+id/editText_2"
         android:layout_width="219dp"
         android:layout_height="68dp"
-        android:layout_marginTop="16dp"
+        android:autofillHints="name"
         android:ems="10"
         android:hint="@string/hint_2"
-        android:autofillHints="name"
         android:inputType="number"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText_1" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_1" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonAdd"
         android:layout_width="152dp"
         android:layout_height="87dp"
-        android:layout_marginStart="128dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="68dp"
         android:backgroundTint="@color/red"
-        android:onClick="btnClickAdd"
+        android:onClick="onClick"
         android:text="@string/Batton_text_1"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText_2" />
+        app:layout_constraintTop_toBottomOf="@+id/editText_2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
