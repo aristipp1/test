@@ -26,6 +26,7 @@
         android:layout_marginTop="18dp"
         android:ems="10"
         android:hint="@string/hint_1"
+        android:autofillHints="name"
         android:inputType="number"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,6 +40,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:hint="@string/hint_2"
+        android:autofillHints="name"
         android:inputType="number"
         android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
@@ -53,6 +55,7 @@
         android:layout_marginStart="128dp"
         android:layout_marginTop="28dp"
         android:backgroundTint="@color/red"
+        android:onClick="btnClickAdd"
         android:text="@string/Batton_text_1"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextText_2" />
