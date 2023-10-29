@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="66dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="84dp"
+        android:fontFamily="@font/architects_daughter"
+        android:text="@string/Text_name"
+        android:textColor="@color/red"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextText_1"
+        android:layout_width="218dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:hint="@string/hint_1"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <EditText
+        android:id="@+id/editTextText_2"
+        android:layout_width="219dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/hint_2"
+        android:inputType="number"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="152dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="@color/red"
+        android:text="@string/Batton_text_1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText_2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

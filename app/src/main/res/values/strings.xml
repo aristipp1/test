@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Itproger App</string>
+    <string name="Batton_text">Нажми на кнопку</string>
+    <string name="Text_name">Calc</string>
+    <string name="hint_1">Введите первое число</string>
+    <string name="hint_2">Введите второе число</string>
+    <string name="Batton_text_1">Добавить числа</string>
+</resources>
